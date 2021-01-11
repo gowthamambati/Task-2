@@ -4,6 +4,7 @@ ar = rn.sample(range(1,10),n)
 print("input array: ",ar)
 k =int(input("Enter no of elements to be reversed: "))
 print("\n")
+#reverse(ar, n, k) 
 op=[]
 i=0
 if k> len(ar):
@@ -18,6 +19,6 @@ else:
             a+= 1; 
             b-=1
         i+= k
-for j in range(0, n): 
-    op.append(ar[j])
-print("output array: ",op)
+    for j in range(0, n): 
+        op.append(ar[j])
+    print("output array: ",op)
